@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section("content")
-    <h1>titolo film</h1>
+    <h1>Film</h1>
     <div class="container d-flex flex-wrap">
 
         @foreach ($movies as $movie )
